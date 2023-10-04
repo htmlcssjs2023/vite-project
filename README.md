@@ -26,6 +26,6 @@ _create dist folder for production.
 
 ### Disscuss about react project structure?
 ### Ready to react project structure for smooth coding skill
-![vite-project-structure](react-project-structure.png)
+![vite-project-structure](src\assets\images\react-project-structure.png)
 
 

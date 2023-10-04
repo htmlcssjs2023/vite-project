@@ -26,6 +26,22 @@ _create dist folder for production.
 
 ### Disscuss about react project structure?
 ### Ready to react project structure for smooth coding skill
-![vite-project-structure](src\assets\images\react-project-structure.png)
+### Necessary tools of VSCODE to develop REACT JS project.
+- vs code icons
+- stylelint > this is used to traking css error.
+- tailwindcss intellisense
+- auto close tag
+- auto import ES6,TS,JS
+- auto rename tag
+- Eslint
+- npm intellisense
+- reactjs code snippet
+- vscode react refactor
+- path intellisense
+- postman
+- thunder clients
+- prettier 
+- snipped > It's used to take screenshot CTR+SHIFT+P
+
 
 

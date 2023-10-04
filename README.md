@@ -43,5 +43,95 @@ _create dist folder for production.
 - prettier 
 - snipped > It's used to take screenshot CTR+SHIFT+P
 
+### JSX Convension
+### JSX functional component
 
-
+```JavaScript
+const Hero = () => {
+    return (
+        <div>
+        </div>
+    );
+};
+export default Hero;
+```
+### JSX inline if else
+```JavaScript
+const mark = 90;
+const Gpa = () => {
+    return (
+        <div>
+            {mark >=90? <h3> Excellent </h3> : <h3> Good </h3>}
+        </div>
+    );
+};
+export default Gpa;
+```
+### Immediately-invoke function
+```JavaScript
+const mark = 80;
+const Gpa = () => {
+    return (
+        <div>
+             <h2>Grading System </h2>
+                {(
+                    ()=>{
+                    if(mark >= 80){
+                        return <h3>GPA: 5</h3>
+                    }
+                    else if(mark >=70 && mark <=79){
+                        return <h3>GPA: 4</h3>
+                    }
+                    else if(mark >=60 && mark <= 69){
+                        return <h3>GPA: 3</h3>
+                    }
+                    else{
+                        return <h3>Try again for this course</h3>
+                    }
+                    }
+                )()}
+        </div>
+    );
+};
+export default Gpa;
+```
+### Add CSS
+```JavaScript
+    const mystyle = {
+    theme:{
+      color: "white",
+      backgroundColor: "DodgerBlue",
+      padding: "10px",
+      fontFamily: "Arial",
+      width:"30%",
+      borderRadius: "10px"
+    }
+    return (
+        <div>
+            <h2 style={myStyle.theme}> </h2>
+        </div>
+    )
+  };
+```
+### JSX loop inside
+```JavaScript
+const City = () => {
+    const cities = ['Dhaka', 'Rajshahi', 'Khulna','Brammanbaria'];
+    return (
+        <div>
+            <h2>List Of City !</h2>
+            <ul>
+                {
+                cities.map((city, i)=> {
+                    return <li key={i.toString()}>{city}</li>
+                })
+                }
+            </ul>
+        </div>
+    );
+};
+export default City;
+```
+- General loop can't return
+- General loop re-execute blok of code.
+### Conditional Rendaring
